@@ -1,0 +1,38 @@
+  body, html {
+    font-family: avenir, sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+  }
+
+  #map {
+    height: 100%;
+  }
+
+  #userInput {
+    position: absolute;
+    height: 5%;
+    width: 20em;
+    z-index: 5;
+    top: 3%;
+    left: 10%;
+    background: yellow;
+    border: none;
+    font-family: avenir;
+    letter-spacing: 1px;
+    box-shadow: inset 1px 1px 1px 1px #666666;
+    padding: 0 1% 0 0.5%;
+  }
+
+  #userInput:focus {
+    outline: none;
+  }
+
+  .gm-style-iw {}
+
+  #iw-container {
+    text-align: center;
+    padding: 2%;
+    /*border: 1px solid green;*/
+  }
